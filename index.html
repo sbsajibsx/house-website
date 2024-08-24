@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Website</title>
+    <!-- font awesome cmd start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cmd end -->
+    <!-- google font start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- google font end -->
+    <!-- tailwind and daisyUI CDN start -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind and daisyUL CDN end -->
+    <!-- tailwind css configuration start -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#F4F4F4',
+              liner1: '#F4F4F4',
+              liner2: 'rgba(255, 255, 255, 0)',
+              bg1: '#F4F4F4',
+              bg: '#ABEF5F',
+              btnc: 'rgba(171, 239, 95, 0.5)',
+            },
+            fontFamily: {
+              manrope: '"Manrope", sans-serif'
+            },
+            backgroundImage: {
+              connect: "url('./assets/bg.jpg')",
+            },
+          },
+        },
+      }
+  </script>
+    <!-- tailwind css configuration end -->
+</head>
+<body class="font-manrope">
+    <!-- header section start -->
+    <header class="container mx-auto bg-gradient-to-b from-liner1 to-liner2">
+      <!-- navbar start -->
+      <nav>
+
+
+        <div class="navbar bg-base-100 bg-bg1">
+          <div class="navbar-start">
+            <a class="btn btn-ghost font-extrabold text-3xl"><div class="bg-bg text-black rounded-full p-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+            </div> Rinterio</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li class="hover:font-extrabold"><a>Home</a></li>
+              <li class="hover:font-extrabold"><a>Services</a></li>
+              <li class="hover:font-extrabold"><a>Portfolio</a></li>
+              <li class="hover:font-extrabold"><a>Blogs</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+              <div>
+                <div class="w-10 h-10 bg-white rounded-full mr-3 items-center hidden lg:flex justify-center"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
+                <div class="w-10 h-10 bg-white rounded-full mr-3 items-center hidden lg:flex justify-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                </div>
+                <button class="btn w-52 h-14 bg-bg font-bold text-xl rounded-3xl hidden lg:flex">View Details <div class="bg-black text-white rounded-full p-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+                </div></button>
+                <div class="dropdown">
+                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <div class="bg-white rounded-full p-2">
+                      <i class="fa-solid fa-bars"></i>
+                    </div>
+                  </div>
+                  <ul
+                    tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 gap-1">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                  </ul>
+                </div>
+              </div>
+              
+            
+          </div>
+        </div>
+
+
+
+
+      </nav>
+      <!-- navbar end -->
+      <!-- banner section start -->
+      <div class="text-center space-y-10 mb-16">
+        <!-- img -->
+        <div class="flex justify-center"><img src="assets/banner.png" alt=""></div>
+        <!-- banner contain -->
+        <h1 class="font-extrabold text-6xl">A barn house of this design has a striking appearance</h1>
+        <p class="font-medium text-gray-500">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        <button class="btn w-52 h-14 bg-btnc font-bold text-xl rounded-3xl">View Details <div class="bg-bg rounded-full p-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+        </svg>
+        </div></button>
+      </div>
+    </header>
+    <!-- header section end -->
+    <!-- about section start -->
+    <section class="bg-bg1 pt-9">
+      <div class="container mx-auto">
+        <div>
+          <!-- content -->
+          <div class="card bg-base-100 w-48 h-12 shadow-xl flex items-center justify-center rounded-full">
+            <div class="card-body">
+              <h2 class="card-title font-bold"><span><i class="fa-solid fa-arrow-right"></i></span> About Us</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
