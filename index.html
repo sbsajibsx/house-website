@@ -28,6 +28,10 @@
               bg1: '#F4F4F4',
               bg: '#ABEF5F',
               btnc: 'rgba(171, 239, 95, 0.5)',
+              card1: 'rgba(231, 193, 211, 1)',
+              card2: 'rgba(239, 218, 110, 1)',
+              card3: 'rgba(164, 218, 195, 1)',
+              card4: 'rgba(119, 170, 234, 1)',
             },
             fontFamily: {
               manrope: '"Manrope", sans-serif'
@@ -105,7 +109,7 @@
         <div class="flex justify-center"><img src="assets/banner.png" alt=""></div>
         <!-- banner contain -->
         <h1 class="font-extrabold text-6xl">A barn house of this design has a striking appearance</h1>
-        <p class="font-medium text-gray-500">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        <p class="font-medium text-gray-500">Introducing our stunning barn house design, where rustic charm meets modern elegance. With its striking appearance, this unique structure effortlessly blends into its surroundings while making a bold statement. Elevate your living experience—discover the perfect harmony of style and functionality. Transform your vision into reality today.</p>
         <button class="btn w-52 h-14 bg-btnc font-bold text-xl rounded-3xl">View Details <div class="bg-bg rounded-full p-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
         </svg>
@@ -114,17 +118,109 @@
     </header>
     <!-- header section end -->
     <!-- about section start -->
-    <section class="bg-bg1 pt-9">
+    <section class="bg-bg1 pt-24">
       <div class="container mx-auto">
-        <div>
-          <!-- content -->
-          <div class="card bg-base-100 w-48 h-12 shadow-xl flex items-center justify-center rounded-full">
-            <div class="card-body">
-              <h2 class="card-title font-bold"><span><i class="fa-solid fa-arrow-right"></i></span> About Us</h2>
+        <div class="mb-24 lg:grid grid-cols-2 gap-4">
+          <!-- content start-->
+          <div class="space-y-6">
+            <div class="card bg-base-100 w-48 h-12 shadow-xl flex items-center justify-center rounded-full">
+              <div class="card-body">
+                <h2 class="card-title font-bold"><span><i class="fa-solid fa-arrow-right"></i></span> About Us</h2>
+              </div>
+            </div>
+            <h1 class="font-bold text-4xl">We design thoughtful, liveable spaces</h1>
+            <p class="font-medium">Transform your living experience with homes designed for comfort and functionality. Our expert architects blend innovative design with livable spaces, ensuring every corner of your home is both beautiful and practical.</p>
+            <div class="md:flex items-center justify-center gap-6 lg:block space-y-6 pb-6">
+              <div class="card card-side bg-base-100 p-6 shadow-xl">
+                <figure>
+                  <img
+                    src="assets/commercial.png"
+                    alt="" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title font-extrabold text-xl">Commercial</h2>
+                  <p class="font-medium text-gray-400">Check out our commercial houses! Perfect for offices, retail, or anything in between. Modern spaces, prime locations, and tons of potential. </p>
+                </div>
+              </div>
+              <div class="md:flex items-center justify-center">
+                <div class="card card-side bg-base-100 p-6 shadow-xl">
+                  <figure>
+                    <img
+                      src="assets/residential.png"
+                      alt="" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title font-extrabold text-xl">Residential</h2>
+                    <p class="font-medium text-gray-400">Check out this cozy residential gem!  Modern amenities, spacious rooms, and a yard perfect for summer BBQs.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+          <!-- content end -->
+          <!-- img start-->
+          <div class="rounded-2xl">
+            <img class="w-screen" src="assets/Rectangle.png" alt="">
+          </div>
+          <!-- img end -->
         </div>
+        
+      </div>
+      <!-- works section start -->
+      <div class="container mx-auto">
+        <!-- content start -->
+         <div class="text-center space-y-6">
+          <div class="flex justify-center items-center">
+            <div class="card bg-base-100 w-60 h-12 shadow-xl flex items-center justify-center rounded-full">
+              <div class="card-body">
+                <h2 class="card-title font-bold"><span><i class="fa-solid fa-arrow-right"></i></span> How we works</h2>
+              </div>
+            </div>
+          </div>
+          <h1 class="font-bold text-4xl">Our Works Process</h1>
+          <p class="font-medium text-gray-400">we pride ourselves on a meticulous and transparent works process designed to deliver superior results. From initial consultation to project completion, our structured approach ensures clarity, quality, and client satisfaction at every stage.</p>
+         </div>
+        <!-- cards -->
+         <div class="h-56 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
+          <!-- card 1 -->
+          <div class="card bg-card1 w-96 shadow-xl">
+            <div class="card-body p-6">
+              <img class="w-12 h-12" src="assets/concept.png" alt="">
+              <h2 class="card-title font-extrabold text-xl">Concept</h2>
+              <p class="font-medium text-gray-600">Elevate your lifestyle with our innovative designs that blend modern aesthetics with functionality. Experience spaces that inspire, crafted with sustainability in mind. Transform your home into a sanctuary.</p>
+              
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card bg-card2 w-96 shadow-xl">
+            <div class="card-body p-6">
+              <img class="w-12 h-12" src="assets/flow-chart.png" alt="">
+              <h2 class="card-title font-extrabold text-xl">Design Process</h2>
+              <p class="font-medium text-gray-600">we blend creativity and efficiency to transform your vision into reality. Our expert team collaborates closely with you, ensuring each step is aligned with your goals.</p>
+              
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="card bg-card3 w-96 shadow-xl">
+            <div class="card-body p-6">
+              <img class="w-12 h-12" src="assets/vision.png" alt="">
+              <h2 class="card-title font-extrabold text-xl">Supervision</h2>
+              <p class="font-medium text-gray-600">Our experienced professionals provide guidance and support, ensuring your team thrives and achieves set goals. Invest in effective oversight that drives productivity and fosters innovation.</p>
+              
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="card bg-card4 w-96 shadow-xl">
+            <div class="card-body p-6">
+              <img class="w-12 h-12" src="assets/budget-planning.png" alt="">
+              <h2 class="card-title font-extrabold text-xl">Budget Planning</h2>
+              <p class="font-medium text-gray-600">Unlock the path to financial freedom with our expert budget planning services. Tailored to your unique lifestyle, our solutions simplify expense tracking and savings strategies, empowering you to achieve your financial goals.</p>
+              
+            </div>
+          </div>
+         </div>
       </div>
     </section>
+    
 </body>
 </html>
