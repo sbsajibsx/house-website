@@ -33,6 +33,7 @@
               card3: 'rgba(164, 218, 195, 1)',
               card4: 'rgba(119, 170, 234, 1)',
               bgl: 'rgba(171, 239, 95, 0.2)',
+              fbg: 'rgba(28, 28, 28, 1)',
             },
             fontFamily: {
               manrope: '"Manrope", sans-serif'
@@ -74,7 +75,7 @@
                 </div>
                 <div class="w-10 h-10 bg-white rounded-full mr-3 items-center hidden md:flex justify-center"><i class="fa-solid fa-cart-shopping"></i></div>
                 </div>
-                <button class="btn w-52 h-14 bg-bg font-bold text-xl rounded-3xl hidden md:flex">View Details <div class="bg-black text-white rounded-full p-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <button class="btn w-52 h-14 bg-bg font-bold text-xl rounded-3xl hidden md:flex">Book Consult <div class="bg-black text-white rounded-full p-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                 </svg>
                 </div></button>
@@ -119,11 +120,15 @@
     </header>
     <!-- header section end -->
     <!-- about section start -->
-    <section class="bg-bg1 pt-24">
-      <div class="w-11/12 mx-auto">
+    <section class="bg-bg1 pt-28">
+      <div class="w-11/12 mx-auto relative">
+        <div class="absolute -left-20 -top-16 hidden lg:block">
+          <img src="assets/Vector.png" alt="">
+        </div>
         <div class="mb-24 lg:grid grid-cols-2 gap-4">
           <!-- content start-->
           <div class="space-y-6">
+            
             <div class="card bg-base-100 w-48 h-12 shadow-xl flex items-center justify-center rounded-full">
               <div class="card-body">
                 <h2 class="card-title font-bold"><span><i class="fa-solid fa-arrow-right"></i></span> About Us</h2>
@@ -131,7 +136,7 @@
             </div>
             <h1 class="font-bold text-4xl">We design thoughtful, liveable spaces</h1>
             <p class="font-medium">Transform your living experience with homes designed for comfort and functionality. Our expert architects blend innovative design with livable spaces, ensuring every corner of your home is both beautiful and practical.</p>
-            <div class="md:flex items-center justify-center gap-6 lg:block space-y-6 pb-6">
+            <div class="md:grid grid-cols-2 gap-6 lg:block space-y-6 pb-6">
               <div class="card card-side bg-base-100 p-6 shadow-xl">
                 <figure>
                   <img
@@ -140,10 +145,10 @@
                 </figure>
                 <div class="card-body">
                   <h2 class="card-title font-extrabold text-xl">Commercial</h2>
-                  <p class="font-medium text-gray-400">Check out our commercial houses! Perfect for offices, retail, or anything in between. Modern spaces, prime locations, and tons of potential. </p>
+                  <p class="font-medium text-gray-400">Check out our commercial houses! Perfect for offices, retail, or anything in between. Modern spaces, prime locations, and tons of potential.</p>
                 </div>
               </div>
-              <div class="md:flex items-center justify-center">
+              <div class="md:flex items-center justify-center gap-6 lg:block space-y-6 pb-6">
                 <div class="card card-side bg-base-100 p-6 shadow-xl">
                   <figure>
                     <img
@@ -152,7 +157,7 @@
                   </figure>
                   <div class="card-body">
                     <h2 class="card-title font-extrabold text-xl">Residential</h2>
-                    <p class="font-medium text-gray-400">Check out this cozy residential gem!  Modern amenities, spacious rooms, and a yard perfect for summer BBQs.</p>
+                    <p class="font-medium text-gray-400">Check out this cozy residential gem!  Modern amenities, spacious rooms, and a yard perfect for summer BBQs. please Check it now. </p>
                   </div>
                 </div>
               </div>
@@ -309,7 +314,7 @@
     </section>
     <!-- cards section end -->
     <!-- news section start -->
-    <section class="bg-bg1">
+    <section class="bg-bg1 mb-2">
       <div class="w-11/12 mx-auto">
         <!-- content -->
         <div class="text-center pt-28 pb-8 space-y-6">
@@ -405,7 +410,7 @@
     </section>
     <!-- news section end -->
     <!-- discuss section start -->
-    <section class="bg-connect">
+    <section class="bg-connect bg-no-repeat bg-cover">
       <div class="w-11/12 mx-auto">
         <!-- content -->
         <div class="text-center pt-28 pb-8 space-y-6">
@@ -434,5 +439,35 @@
       </div>
     </section>
     <!-- discuss section end -->
+    <!-- footer start -->
+    <footer class="bg-fbg">
+      <div class="w-11/12 mx-auto py-28 space-y-11">
+        <!-- footer header -->
+        <div class="text-center space-y-6">
+          <a class="btn btn-ghost text-white font-extrabold text-3xl"><div class="bg-bg text-black rounded-full p-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+          </svg>
+          </div> Rinterio</a>
+          <p class="font-medium text-slate-600">Explore a curated collection of exquisite homes tailored to your lifestyle. Our user-friendly platform connects you with unparalleled listings, expert insights, and market trends to make your home buying journey seamless.</p>
+        </div>
+        <!-- footer navbar -->
+        <div class=" ">
+          <nav class="grid md:grid-cols-4 gap-4 text-center text-white">
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+          </nav>
+        </div>
+        <!-- footer btn -->
+        <div class="flex justify-center">
+          <button class="btn w-52 h-14 bg-bg font-bold text-xl rounded-3xl flex">Book Consult <div class="bg-black text-white rounded-full p-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+          </svg>
+          </div></button>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
 </body>
 </html>
