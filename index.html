@@ -32,6 +32,7 @@
               card2: 'rgba(239, 218, 110, 1)',
               card3: 'rgba(164, 218, 195, 1)',
               card4: 'rgba(119, 170, 234, 1)',
+              bgl: 'rgba(171, 239, 95, 0.2)',
             },
             fontFamily: {
               manrope: '"Manrope", sans-serif'
@@ -181,9 +182,9 @@
           <p class="font-medium text-gray-400">we pride ourselves on a meticulous and transparent works process designed to deliver superior results. From initial consultation to project completion, our structured approach ensures clarity, quality, and client satisfaction at every stage.</p>
          </div>
         <!-- cards -->
-         <div class="h-56 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
+         <div class=" items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6 pb-24">
           <!-- card 1 -->
-          <div class="card bg-card1 w-96 shadow-xl">
+          <div class="card bg-card1 h-96 shadow-xl grid items-center justify-center">
             <div class="card-body p-6">
               <img class="w-12 h-12" src="assets/concept.png" alt="">
               <h2 class="card-title font-extrabold text-xl">Concept</h2>
@@ -192,7 +193,7 @@
             </div>
           </div>
           <!-- card 2 -->
-          <div class="card bg-card2 w-96 shadow-xl">
+          <div class="card bg-card2 h-96 shadow-xl grid items-center justify-center">
             <div class="card-body p-6">
               <img class="w-12 h-12" src="assets/flow-chart.png" alt="">
               <h2 class="card-title font-extrabold text-xl">Design Process</h2>
@@ -201,7 +202,7 @@
             </div>
           </div>
           <!-- card 3 -->
-          <div class="card bg-card3 w-96 shadow-xl">
+          <div class="card bg-card3 h-96 shadow-xl grid items-center justify-center">
             <div class="card-body p-6">
               <img class="w-12 h-12" src="assets/vision.png" alt="">
               <h2 class="card-title font-extrabold text-xl">Supervision</h2>
@@ -210,7 +211,7 @@
             </div>
           </div>
           <!-- card 4 -->
-          <div class="card bg-card4 w-96 shadow-xl">
+          <div class="card bg-card4 h-96 shadow-xl grid items-center justify-center">
             <div class="card-body p-6">
               <img class="w-12 h-12" src="assets/budget-planning.png" alt="">
               <h2 class="card-title font-extrabold text-xl">Budget Planning</h2>
@@ -219,6 +220,89 @@
             </div>
           </div>
          </div>
+      </div>
+    </section>
+    <section class="pt-28 container mx-auto">
+      <div>
+        <!-- content -->
+        <div class="text-center space-y-6">
+          <div class="flex justify-center items-center">
+            <div class="card bg-bgl w-96 h-12 shadow-xl flex items-center justify-center rounded-full">
+              <div class="card-body">
+                <h2 class="card-title font-bold"><span><i class="fa-solid fa-arrow-right"></i></span> Explore our Latest works</h2>
+              </div>
+            </div>
+          </div>
+          <h1 class="font-bold text-4xl">Our Latest Portfolio</h1>
+          <p class="font-medium text-gray-500">Discover the exceptional creativity and innovative solutions in our newest collection. Each project reflects our commitment to quality and excellence. Explore how our tailored approaches can elevate your vision.</p>
+        </div>
+        <!-- cards -->
+        <div class="mt-6 grid grid-cols-12 gap-8">
+          <!-- card 1 -->
+          <div class="col-span-full lg:col-span-9">
+            <div class="card md:card-side p-6 bg-white shadow-xl">
+              <figure>
+                <img
+                  src="assets/img1.png"
+                  alt="Movie" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title font-extrabold text-2xl">Commercial</h2>
+                <p class="font-medium text-gray-500">Discover a strategic location designed for success. Our commercial house offers modern facilities, flexible spaces, and unparalleled accessibility to enhance your business operations. From startups to established enterprises, we cater to your unique needs.</p>
+                <div>
+                  <a class="btn btn-ghost font-extrabold text-xl" href="#">View Details <div class="bg-bg text-black rounded-full p-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                  </div></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="col-span-full md:col-span-6 lg:col-span-3">
+            <div class="card bg-base-100 shadow-xl h-72 p-6 flex items-center justify-center">
+                  <img src="assets/img2.png" alt="">
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="col-span-full md:col-span-6 lg:col-span-2">
+            <div class="card bg-base-100 shadow-xl h-72 p-6 flex items-center justify-center">
+                  <img src="assets/img3.png" alt="">
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="col-span-full lg:col-span-8">
+            <div class="card md:card-side p-6 bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="assets/img4.png"
+                  alt="Movie" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title font-extrabold text-2xl">Commercial</h2>
+                <p class="font-medium text-gray-500">Discover a strategic location designed for success. Our commercial house offers modern facilities, flexible spaces, and unparalleled accessibility to enhance your business operations. From startups to established enterprises, we cater to your unique needs.</p>
+                <div>
+                  <a class="btn btn-ghost font-extrabold text-xl" href="#">View Details <div class="bg-bg text-black rounded-full p-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                  </div></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="col-span-full md:col-span-6 lg:col-span-2">
+            <div class="card bg-base-100 shadow-xl p-6 h-72 flex items-center justify-center">
+                  <img src="assets/img5.png" alt="">
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div class="col-span-full md:col-span-6 lg:hidden">
+            <div class="card bg-base-100 shadow-xl h-72 p-6 flex items-center justify-center">
+                  <img src="assets/img3.png" alt="">
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     
